@@ -1,0 +1,64 @@
+/* Google Font */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+/*.site-wrapper {
+	width: 100%;
+	margin: 25px 25px;
+}*/
+section {
+	margin-bottom: 25px;
+}
+
+
+h1, h2, h3, h4, h5, h6, b {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+/* Sliding panels */
+.curtains>li {
+    background:#FFF url(../img/blizzard.png);
+    box-shadow:0 0 12px #666;
+}
+.curtains>li:last-child{box-shadow:none}
+
+
+h2 { 
+   position: absolute; 
+   left: 0; 
+   width: 100%; 
+}
+
+svg {
+	position: absolute;
+	display: block;
+	top: 200px;
+	margin: 0px 40px auto;
+	width: initial;
+}
+.splash h2 { 
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	top: 200px;
+	font-size: 100px;
+	color: white;
+	text-shadow: 5px 5px 2px #000;
+}
