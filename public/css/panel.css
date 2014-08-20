@@ -1,0 +1,28 @@
+.board {
+	display: block;
+	position: relative;
+
+	width: 60%;
+	height: auto;
+	top: 25px;
+
+	margin-right: auto;
+	margin-left: auto;
+	padding: 25px;
+    border: 1px solid #FFF;
+	border-radius: 5px;
+	
+	background-color: #CCC;
+}
+
+.panel {
+	display: inline-block;
+	position: inherit;
+
+	width: 150px;
+	height: 150px;
+	margin: 25px;
+
+	background-color: black;
+
+}

@@ -1,6 +1,6 @@
 /* Google Font */
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
-@import url(http://fonts.googleapis.com/css?family=Francois+One);
+/*@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);*/
 
 /*.site-wrapper {
 	width: 100%;
@@ -62,3 +62,26 @@ svg {
 	color: white;
 	text-shadow: 5px 5px 2px #000;
 }
+
+
+.nav-group {
+	z-index: 2;
+	position: fixed;
+	width:40px;
+	right:0;
+	top: 0;
+	background: black;
+	height: 100%;
+	padding-top:100px;
+	opacity: .5;
+}
+	.nav {
+		color: white;
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+
+	.nav-active {
+		color: darkcyan;
+	}
+
