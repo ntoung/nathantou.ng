@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+	<title>Anchors</title>
+
+	<style type="text/css">
+	body {font-family:sans-serif;}
+
+	#content {
+		width:90%;
+		color:#eee;
+		border:1px solid #444;
+		margin:1em auto;
+	}
+
+	#content > div {
+		padding:1em;
+	}
+
+	.box {
+		float:left;
+		padding:6em 1em;
+		margin:2px;
+	}
+
+	p {margin:1em 0;}
+	</style>
+</head>
+
+<body>
+	<!-- <div id="skrollr-body"> -->
+
+		<div id="content">
+			<div>
+				<div class="box" data-start="color:hsl(0,50%,75%);" data-end="color:hsl(180,50%,75%);">
+					start<br>end
+				</div>
+
+				<div class="box" data-bottom-top="color:hsl(0,50%,75%);" data-top-bottom="color:hsl(180,50%,75%);">
+					bottom-top<br>top-bottom
+				</div>
+
+				<div class="box" data-top-top="color:hsl(0,50%,75%);" data-bottom-bottom="color:hsl(180,50%,75%);">
+					top-top<br>bottom-bottom
+				</div>
+
+				<div class="box" data-center-top="color:hsl(0,50%,75%);" data-center-bottom="color:hsl(180,50%,75%);">
+					center-top<br>center-bottom
+				</div>
+
+				<div class="box" data-center-center="color:hsl(0,50%,75%);" data-1-center-center="color:hsl(180,50%,75%);">
+					center-center<br>1-center-center
+				</div>
+
+				<div class="box" data-50-bottom-bottom="color:hsl(0,50%,75%);" data--50-top-top="color:hsl(180,50%,75%);">
+					50-bottom-bottom<br>-50-top-top
+				</div>
+
+				
+				<div class="box" data-300-end="color:hsl(0,50%,75%);" data-end="color:hsl(180,50%,75%);">
+					300-end<br>end
+				</div>
+
+				
+			</div>
+		</div>
+
+	<!-- </div> -->
+
+	<script type="text/javascript" src="public/js/skrollr.min.js"></script>
+
+	<script type="text/javascript">
+	skrollr.init({
+		
+	});
+	</script>
+</body>
+
+</html>

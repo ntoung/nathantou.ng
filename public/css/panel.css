@@ -1,3 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+h2, p, div {
+	font-family: 'Francois One', sans-serif;
+	font-size: 80px;
+}
+/*
 .board {
 	display: block;
 	position: relative;
@@ -21,8 +28,27 @@
 
 	width: 150px;
 	height: 150px;
-	margin: 25px;
+	margin: 25px;*/
 
-	background-color: black;
+/*	background-color: black;*/
 
 }
+
+#content {
+	width:90%;
+	background:#eee;
+	border:1px solid #444;
+	margin:1em auto;
+}
+
+/*#content > div {
+	padding:1em;
+}*/
+
+.box {
+	float:left;
+	/*padding:6em 1em;*/
+	margin:2px;
+}
+
+p {margin:1em 0;}
