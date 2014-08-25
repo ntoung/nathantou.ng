@@ -27,24 +27,36 @@
         }
 
         p {margin:1em 0;}
+
+       /* svg, #container{
+            height: 100%;
+            width: 100%;
+        }*/
+
     </style>    
 
 
 </head>
 
-<body>
-    
+<!-- <body data-0="background-image:linear-gradient(0deg, hsl(0, 100%, 50%), hsl(40, 50%, 50%));" data-5000="background-image:linear-gradient(3600deg, hsl(360, 100%, 50%), hsl(400, 100%, 50%));" class="skrollable skrollable-between" style="background-image: -webkit-linear-gradient(3600deg, rgb(255, 0, 0), rgb(255, 170, 0)); height: 5397px;">
+     -->
+<body> 
+    <div id="container" style="width:100px; height:100px">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
+             <polygon points="25,0 0,43.3 45,43.3 25,21.65 5,43.3 50,43.3" data-start="color:hsl(0,50%,75%);" data-100="color:hsl(0,100%,0%);" style="fill:black;"/>
+        </svg>
+    </div>
 
     <!-- Separate Structure from Skin -->
     <!-- Separate Container from Content -->
     <!-- Container -->
     <div class="content" style="position:fixed">
-        <div class="box" data-start="color:hsl(0,50%,75%);" data-1000="color:hsl(0,0%,0%);">T</div>
-        <div class="box" data-start="color:hsl(50,50%,75%);" data-2000="color:hsl(0,0%,0%);">O</div>
-        <div class="box" data-start="color:hsl(100,50%,75%);" data-3000="color:hsl(0,0%,0%);">U</div>
-        <div class="box" data-start="color:hsl(180,50%,75%);" data-4000="color:hsl(0,0%,0%);">R</div>
-        <div class="box" data-start="color:hsl(250,50%,75%);" data-5000="color:hsl(0,0%,0%);">M</div>
-        <div class="box" data-start="color:hsl(300,50%,75%);" data-6000="color:hsl(0,0%,0%);">O</div>
+        <div class="box" data-start="color:hsl(0,50%,75%);" data-100="color:hsl(0,100%,0%);">T</div>
+        <div class="box" data-start="color:hsl(50,50%,75%);" data-100="color:hsl(50,100%,0%);">O</div>
+        <div class="box" data-start="color:hsl(100,50%,75%);" data-100="color:hsl(100,100%,0%);">U</div>
+        <div class="box" data-start="color:hsl(180,50%,75%);" data-100="color:hsl(180,100%,0%);">R</div>
+        <div class="box" data-start="color:hsl(250,50%,75%);" data-100="color:hsl(250,100%,0%);">M</div>
+        <div class="box" data-start="color:hsl(300,50%,75%);" data-100="color:hsl(300,100%,0%);">O</div>
     </div>
 
     <script type="text/javascript" src="public/js/skrollr.min.js"></script>
@@ -56,4 +68,5 @@
 </body>
 
 
+</body>
 </html>
