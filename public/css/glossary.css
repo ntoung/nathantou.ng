@@ -1,0 +1,42 @@
+
+.definitions {
+    display: block;
+}
+
+.word {
+    width: 150px;
+}
+
+tr th {
+    text-align: left;
+}
+
+.site-wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    
+    font-size: 60px;
+}
+
+input[type="text"] {
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.tt-dropdown-menu {
+    background-color: #fff;
+}
+
+    .tt-suggestion:hover {
+        color: #bbb;   
+    }
